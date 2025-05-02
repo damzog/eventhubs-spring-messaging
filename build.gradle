@@ -27,6 +27,7 @@ dependencyManagement {
 dependencies {
     implementation 'com.azure.spring:spring-cloud-azure-starter'
     implementation 'com.azure.spring:spring-cloud-azure-starter-eventhubs'
+    implementation 'com.azure.spring:spring-messaging-azure-eventhubs'
     implementation 'com.azure:azure-messaging-eventhubs-checkpointstore-blob'
 }
 
